@@ -1,0 +1,26 @@
+{
+    "nombre": "Fiebre del nilo",
+    "titulo": "Fiebre del nilo Occidental",
+    "descripcion_corta": "Enfermedad vírica transmitida por mosquitos del género Culex. Originaria de África oriental en 1937.",
+    "descripcion_larga": "Es una enfermedad Emergente en España que suele detectarse en agosto o septiembre cuando más mosquitos hay. Aunque muchas personas son picadas por los mosquitos portadores del virus del Nilo Occidental, la mayoría no saben que han resultado infectadas. Los síntomas suelen comenzar entre 2 a 6 días después de la picadura. El 80% de las personas infectadas no presentan síntomas. Un vez recuperado la fatiga y la debilidad pueden durar semanas o meses. Menos del 1 % de las personas infectadas presentan una enfermedad grave que afecta el sistema nervioso central, requiere hospitalización o provoca la muerte. Esta enfermdad es más peligrosa en la población mayor a 65 años, enfermedades autoinmunes o embarazadas.",
+    "imagen": "img/mosquito_azul.jpg",
+    "color": "#87E6FF",
+    "sintomas": [
+        "Dolor abdominal",
+        "Dolor de cabeza",
+        "Dolor muscular",
+        "Erupción cutánea(Sarpullido)",
+        "Fiebre",
+        "Dolor de garganta",
+        "Náuseas, vómitos y diarrea",
+        "Inflamación de ganglios linfáticos",
+        "Falta de apetito",
+        "Debilidad muscular",
+        "Rigidez cuello",
+        "Confusión o pérdida del conocimiento"
+    ],
+    "transmision": "Picadura de mosquitos del género Culex.",
+    "prevencion": "Evitar permanecer cerca de aguas estancadas donde hay mayor acmulación de mosquitos y protegerse frente a las picaduras. Solo los mosquitos hembras pican para desarrollar sus huevos. Cualquier trasnplante de sangre infectada podria transmitir la enfermedad.",
+    "tratamiento": "No existe un tratamiento específico. Consultar a un médico y tratamientos que disminuyan el riesgo de presentar mayores complicaciones.",
+    "fuente": "MedlinePlus, CDC,semFYC"
+}

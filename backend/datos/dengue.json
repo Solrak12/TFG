@@ -1,0 +1,19 @@
+{
+    "nombre": "Dengue",
+    "titulo": "Dengue",
+    "descripcion_corta": "Enfermedad vírica transmitida por mosquitos del género Aedes. Originaria del Suroeste de Asia y de las regiones tropicales de África en el siglo III a.C.",
+    "descripcion_larga": "El dengue es una enfermedad causada por un virus transmitido por la picadura de mosquitos infectados. Es una infección muy extendida en algunos países de América Latina y Asia, cuya incidencia ha aumentado en gran medida en las últimas décadas. Aproximadamente 1 de 20 personas con dengue desarrollarán dengue grave que es una variante más letal en unas cuantas horas después de que inicien los síntomas. Entre un 40% y 80% de personas infectadas no tienen síntomas y pasados de 3 a catorce días pueden empezar a presentar síntomas despúes de incubarlo. Cada año se producen entre 100 y 400 millones de infecciones en el mundo. Existe una vacuna más efectiva para personas que ya hayan padecido dengue.",
+    "imagen": "img/mosquitoamarillo.webp",
+    "color": "#97FC86",
+    "sintomas": [
+        "Fiebre alta",
+        "Dolor de cabeza y detrás de los ojos",
+        "Dolor musculares y de articulaciones",
+        "Erupción cutánea(Sarpullido)",
+        "Náuseas y vómitos"
+    ],
+    "transmision": "Picadura de mosquitos del género Aedes. En España el principal trasmisor es el mosquito tigre. Solo las hembras pican a los seres vivos para poder desarrollar sus huevos. Cualquier trasnplante de sangre infectada podria transmitir la enfermedad.",
+    "prevencion": "Evitar permanecer cerca de aguas estancadas donde hay mayor acmulación de mosquitos y protegerse frente a las picaduras.",
+    "tratamiento": "No existe un tratamiento específico. Se recomienda reposo, hidratación y control médico. En casos leves tratamiento analgésico y antipirético y aislamiento para no contagiar a otros.",
+    "fuente": "Ministerio de Sanidad, CinfaSalud, MedlinePlus"
+}

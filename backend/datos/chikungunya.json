@@ -1,0 +1,20 @@
+{
+    "nombre": "Chikungunya",
+    "titulo": "Chikungunya",
+    "descripcion_corta": "Enfermedad vírica transmitida por mosquitos del género Aedes aegypti y el Aedes albopictus. Originaria del África subsahariana en 1952.",
+    "descripcion_larga": "El chikunguña es una enfermedad infecciosa transmitida a los seres humanos por mosquitos infectados con el virus Chikungunya. Los síntomas comienzan generalmente de 4 a 8 días después de la picadura de mosquitos, pero pueden aparecer en cualquier momento entre el día 2 y el día 12. No existe una vacuna o tratamiento con medicamentos antivirales para el chikungunya. Las personas con comorbilidades, adultos mayores, niños menores de 1 año y embarazadas tienen mayores complicaciones. La enfermedad puede adquirirse una sola vez debido a la presencia de anticuerpos que protegen contra futuras infecciones por el virus. El dolor en las articulaciones puede ser intenso y podría persistir por meses. Existen vacunas muy eficientes contra esta enfermedad.",
+    "imagen": "img/mosquito3.avif",
+    "color": "#FFE46E",
+    "sintomas": [
+        "Fiebre alta",
+        "Dolor de cabeza",
+        "Dolor muscular y articular",
+        "Erupción cutánea(Sarpullido)",
+        "Inflamación de las articulaciones",
+        "Fatiga"
+    ],
+    "transmision": "Picadura de mosquitos del género Aedes(aegypti y albopictus). Principalmente el mosquito tigre y el mosquito de la fiebre amarilla. El virus se mantiene en la sangre la primera semana, cualquier trasnplante de sangre infectada podria transmitir la enfermedad. Solo los mosquitos hembras pican para desarrollar sus huevos.",
+    "prevencion": "Evitar permanecer cerca de aguas estancadas donde hay mayor acmulación de mosquitos y protegerse frente a las picaduras.",
+    "tratamiento": "No existe un tratamiento específico. Se utilizan tratamientos que controlen los síntomas como el reposo, los líquidos, los medicamentos para el dolor y paracetamol para la fiebre.  ",
+    "fuente": "CDC, Organización Panamericana de la salud, Médicos sin frontera"
+}

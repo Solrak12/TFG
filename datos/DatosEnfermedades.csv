@@ -1,0 +1,258 @@
+Enfermedad;Año;Comunidad;Casos;Tasa notificacion;Hombres;Mujeres;Rango edad;Casos edad
+Dengue;2022;Andalucia;36;0,42;;;;
+Dengue;2023;Andalucia;47;0,55;;;;
+Dengue;2024;Andalucia;87;1,01;;;;
+Dengue;2022;Aragon;7;0,52;;;;
+Dengue;2023;Aragon;6;0,45;;;;
+Dengue;2024;Aragon;22;1,63;;;;
+Dengue;2022;Asturias;1;0,1;;;;
+Dengue;2023;Asturias;12;1,19;;;;
+Dengue;2024;Asturias;7;0,69;;;;
+Dengue;2022;Baleares;9;0,73;;;;
+Dengue;2023;Baleares;9;0,74;;;;
+Dengue;2024;Baleares;38;3,08;;;;
+Dengue;2022;Canarias;32;1,43;;;;
+Dengue;2023;Canarias;29;1,31;;;;
+Dengue;2024;Canarias;42;1,88;;;;
+Dengue;2022;Cantabria;6;1,02;;;;
+Dengue;2023;Cantabria;5;0,85;;;;
+Dengue;2024;Cantabria;11;1,86;;;;
+Dengue;2022;Castilla y Leon;15;0,71;;;;
+Dengue;2023;Castilla y Leon;13;0,62;;;;
+Dengue;2024;Castilla y Leon;22;1,05;;;;
+Dengue;2022;Castilla-La Mancha;2;0,08;;;;
+Dengue;2023;Castilla-La Mancha;6;0,25;;;;
+Dengue;2024;Castilla-La Mancha;20;0,84;;;;
+Dengue;2022;Cataluña;178;2,22;;;;
+Dengue;2023;Cataluña;234;2,96;;;;
+Dengue;2024;Cataluña;387;4,83;;;;
+Dengue;2022;C. Valenciana;39;0,73;;;;
+Dengue;2023;C. Valenciana;54;1,04;;;;
+Dengue;2024;C. Valenciana;89;1,67;;;;
+Dengue;2022;Extremadura;4;0,38;;;;
+Dengue;2023;Extremadura;5;0,47;;;;
+Dengue;2024;Extremadura;6;0,57;;;;
+Dengue;2022;Galicia;4;0,15;;;;
+Dengue;2023;Galicia;7;0,26;;;;
+Dengue;2024;Galicia;30;1,11;;;;
+Dengue;2022;Madrid;103;1,47;;;;
+Dengue;2023;Madrid;127;1,85;;;;
+Dengue;2024;Madrid;235;3,35;;;;
+Dengue;2022;Murcia;8;0,51;;;;
+Dengue;2023;Murcia;8;0,52;;;;
+Dengue;2024;Murcia;18;1,15;;;;
+Dengue;2022;Navarra;14;2,06;;;;
+Dengue;2023;Navarra;13;1,93;;;;
+Dengue;2024;Navarra;30;4,42;;;;
+Dengue;2022;País Vasco;41;1,84;;;;
+Dengue;2023;País Vasco;40;1,8;;;;
+Dengue;2024;País Vasco;67;3,01;;;;
+Dengue;2022;La Rioja;4;1,23;;;;
+Dengue;2023;La Rioja;1;0,31;;;;
+Dengue;2024;La Rioja;7;2,16;;;;
+Dengue;2022;Ceuta;0;0;;;;
+Dengue;2023;Ceuta;0;0;;;;
+Dengue;2024;Ceuta;0;0;;;;
+Dengue;2022;Melilla;0;0;;;;
+Dengue;2023;Melilla;0;0;;;;
+Dengue;2024;Melilla;1;1,16;;;;
+Dengue;2024;España;1119;230;521;591;Total;1112
+Dengue;2024;España;1119;230;43;34;0-15;77
+Dengue;2024;España;1119;230;44;42;15-25;86
+Dengue;2024;España;1119;230;144;168;25-35;312
+Dengue;2024;España;1119;230;106;148;35-45;254
+Dengue;2024;España;1119;230;89;111;45-55;200
+Dengue;2024;España;1119;230;61;64;55-65;125
+Dengue;2024;España;1119;230;34;24;>=65;58
+Dengue;2023;España;616;1,28;351;264;Total;616
+Dengue;2023;España;616;1,28;29;22;0-15;51
+Dengue;2023;España;616;1,28;29;29;15-25;58
+Dengue;2023;España;616;1,28;83;107;25-35;190
+Dengue;2023;España;616;1,28;62;86;35-45;148
+Dengue;2023;España;616;1,28;50;37;45-55;87
+Dengue;2023;España;616;1,28;25;23;55-65;48
+Dengue;2023;España;616;1,28;13;17;>=65;30
+Dengue;2022;España;503;0,03;233;265;Total;503
+Dengue;2022;España;503;0,03;14;12;0-15;26
+Dengue;2022;España;503;0,03;25;25;15-25;50
+Dengue;2022;España;503;0,03;69;101;25-35;170
+Dengue;2022;España;503;0,03;43;50;35-45;93
+Dengue;2022;España;503;0,03;46;46;45-55;92
+Dengue;2022;España;503;0,03;26;23;55-65;49
+Dengue;2022;España;503;0,03;10;8;>=65;18
+Tuberculosis;2024;Andalucia;550;6,37;;;;
+Tuberculosis;2024;Aragon;138;10,21;;;;
+Tuberculosis;2024;Asturias;74;7,33;;;;
+Tuberculosis;2024;Baleares;93;7,55;;;;
+Tuberculosis;2024;Canarias;138;6,2;;;;
+Tuberculosis;2024;Cantabria;34;5,7;;;;
+Tuberculosis;2024;Castilla y Leon;111;5,27;;;;
+Tuberculosis;2024;Castilla-La Mancha;171;7,2;;;;
+Tuberculosis;2024;Cataluña;1153;14,39;;;;
+Tuberculosis;2024;C. Valenciana;345;6,49;;;;
+Tuberculosis;2024;Extremadura;89;8,44;;;;
+Tuberculosis;2024;Galicia;310;11,46;;;;
+Tuberculosis;2024;Madrid;634;9,05;;;;
+Tuberculosis;2024;Murcia;117;7,46;;;;
+Tuberculosis;2024;Navarra;26;3,83;;;;
+Tuberculosis;2024;País Vasco;237;10,64;;;;
+Tuberculosis;2024;La Rioja;31;9,56;;;;
+Tuberculosis;2024;Ceuta;22;26,44;;;;
+Tuberculosis;2024;Melilla;7;8,19;;;;
+Tuberculosis;2024;España;4280;8,8;2750;1520;Total;4280
+Tuberculosis;2024;España;4280;8,8;141;118;0-15;256
+Tuberculosis;2024;España;4280;8,8;263;154;15-25;417
+Tuberculosis;2024;España;4280;8,8;421;233;25-35;654
+Tuberculosis;2024;España;4280;8,8;430;276;35-45;706
+Tuberculosis;2024;España;4280;8,8;433;240;45-55;673
+Tuberculosis;2024;España;4280;8,8;440;160;55-65;600
+Tuberculosis;2024;España;4280;8,8;590;309;>=65;899
+Tuberculosis;2023;Andalucia;548;6,4;;;;
+Tuberculosis;2023;Aragon;96;6,8;;;;
+Tuberculosis;2023;Asturias;75;7,4;;;;
+Tuberculosis;2023;Baleares;86;7,1;;;;
+Tuberculosis;2023;Canarias;117;5,3;;;;
+Tuberculosis;2023;Cantabria;44;7,5;;;;
+Tuberculosis;2023;Castilla y Leon;171;7,2;;;;
+Tuberculosis;2023;Castilla-La Mancha;141;6,8;;;;
+Tuberculosis;2023;Cataluña;973;12,3;;;;
+Tuberculosis;2023;C. Valenciana;309;5,9;;;;
+Tuberculosis;2023;Extremadura;57;5,4;;;;
+Tuberculosis;2023;Galicia;302;11,2;;;;
+Tuberculosis;2023;Madrid;580;8,4;;;;
+Tuberculosis;2023;Murcia;96;6,2;;;;
+Tuberculosis;2023;Navarra;34;5,1;;;;
+Tuberculosis;2023;País Vasco;242;;;;;
+Tuberculosis;2023;La Rioja;22;6,8;;;;
+Tuberculosis;2023;Ceuta;23;28,9;;;;
+Tuberculosis;2023;Melilla;12;14,1;;;;
+Tuberculosis;2023;España;3929;8,8;2575;1369;Total;3929
+Tuberculosis;2023;España;3929;8,8;;;0-15;210
+Tuberculosis;2023;España;3929;8,8;;;15-25;377
+Tuberculosis;2023;España;3929;8,8;;;25-35;573
+Tuberculosis;2023;España;3929;8,8;;;35-45;637
+Tuberculosis;2023;España;3929;8,8;;;45-55;697
+Tuberculosis;2023;España;3929;8,8;;;55-65;549
+Tuberculosis;2023;España;3929;8,8;;;>=65;901
+Tuberculosis;2022;Andalucia;479;5,48;;;;
+Tuberculosis;2022;Aragon;91;6,86;;;;
+Tuberculosis;2022;Asturias;56;5,56;;;;
+Tuberculosis;2022;Baleares;68;5,8;;;;
+Tuberculosis;2022;Canarias;121;5,37;;;;
+Tuberculosis;2022;Cantabria;37;6,32;;;;
+Tuberculosis;2022;Castilla y Leon;151;5,64;;;;
+Tuberculosis;2022;Castilla-La Mancha;106;5,17;;;;
+Tuberculosis;2022;Cataluña;983;12,61;;;;
+Tuberculosis;2022;C. Valenciana;292;5,6;;;;
+Tuberculosis;2022;Extremadura;28;2,65;;;;
+Tuberculosis;2022;Galicia;314;11,7;;;;
+Tuberculosis;2022;Madrid;502;7,43;;;;
+Tuberculosis;2022;Murcia;126;8,28;;;;
+Tuberculosis;2022;Navarra;40;6,08;;;;
+Tuberculosis;2022;País Vasco;232;10,61;;;;
+Tuberculosis;2022;La Rioja;19;6,01;;;;
+Tuberculosis;2022;Ceuta;24;28,67;;;;
+Tuberculosis;2022;Melilla;6;7,2;;;;
+Tuberculosis;2022;España;3675;8,07;2434;1282;Total;3675
+Tuberculosis;2022;España;3675;8,07;2434;1282;0-15;205
+Tuberculosis;2022;España;3675;8,07;2434;1282;15-25;349
+Tuberculosis;2022;España;3675;8,07;2434;1282;25-35;561
+Tuberculosis;2022;España;3675;8,07;2434;1282;35-45;606
+Tuberculosis;2022;España;3675;8,07;2434;1282;45-55;639
+Tuberculosis;2022;España;3675;8,07;2434;1282;55-65;509
+Tuberculosis;2022;España;3675;8,07;2434;1282;>=65;847
+Fiebre del nilo;2024;Andalucia;118;1,37;;;;
+Fiebre del nilo;2024;Extremadura;39;3,7;;;;
+Fiebre del nilo;2024;Castilla-La Mancha;1;0,14;;;;
+Fiebre del nilo;2024;España;158;0,33;95;64;;
+Fiebre del nilo;2022;Andalucia;2;0.023;;;;
+Fiebre del nilo;2022;Cataluña;2;0.026;;;;
+Fiebre del nilo;2022;España;4;0.008;4;6;;
+Fiebre del nilo;2023;Extremadura;15;1,415;;;;
+Fiebre del nilo;2023;Andalucia;2;0.023;;;;
+Fiebre del nilo;2023;Cataluña;1;0.013;;;;
+Fiebre del nilo;2023;C. Valenciana;1;0.020;;;;
+Fiebre del nilo;2023;Castilla-La Mancha;1;0.048;;;;
+Fiebre del nilo;2023;España;20;0.042;12;8;;
+ Fiebre hemorragica Crimea-Congo;2022;Castilla y Leon;2;0.084;;;;
+ Fiebre hemorragica Crimea-Congo;2022;España;2;0.004;;;;
+ Fiebre hemorragica Crimea-Congo;2023;Castilla y Leon;1;0.042;;;;
+ Fiebre hemorragica Crimea-Congo;2023;España;1;0.002;;;;
+ Fiebre hemorragica Crimea-Congo;2024;Castilla y Leon;1;0.042;;;;
+ Fiebre hemorragica Crimea-Congo;2024;Castilla-La Mancha;1;0.048;;;;
+ Fiebre hemorragica Crimea-Congo;2024;Andalucia;1;0.012;;;;
+ Fiebre hemorragica Crimea-Congo;2024;España;4;0.008;;;;
+chikungunya;2022;Andalucia;1;0,01;;;;
+chikungunya;2023;Andalucia;32;0,37;;;;
+chikungunya;2024;Andalucia;9;0,1;;;;
+chikungunya;2022;Aragon;0;0;;;;
+chikungunya;2023;Aragon;1;0,07;;;;
+chikungunya;2024;Aragon;0;0;;;;
+chikungunya;2022;Asturias;0;0;;;;
+chikungunya;2023;Asturias;5;0,5;;;;
+chikungunya;2024;Asturias;0;0;;;;
+chikungunya;2022;Baleares;2;0,17;;;;
+chikungunya;2023;Baleares;2;1,7;;;;
+chikungunya;2024;Baleares;0;0;;;;
+chikungunya;2022;Canarias;0;0;;;;
+chikungunya;2023;Canarias;3;0,14;;;;
+chikungunya;2024;Canarias;1;0,04;;;;
+chikungunya;2022;Cantabria;0;0;;;;
+chikungunya;2023;Cantabria;2;0,34;;;;
+chikungunya;2024;Cantabria;0;0;;;;
+chikungunya;2022;Castilla y Leon;0;0;;;;
+chikungunya;2023;Castilla y Leon;3;0,14;;;;
+chikungunya;2024;Castilla y Leon;0;0;;;;
+chikungunya;2022;Castilla-La Mancha;0;0;;;;
+chikungunya;2023;Castilla-La Mancha;1;0,04;;;;
+chikungunya;2024;Castilla-La Mancha;0;0;;;;
+chikungunya;2022;Cataluña;2;0,03;;;;
+chikungunya;2023;Cataluña;48;0,61;;;;
+chikungunya;2024;Cataluña;20;0,25;;;;
+chikungunya;2022;C. Valenciana;2;0,04;;;;
+chikungunya;2023;C. Valenciana;24;0,46;;;;
+chikungunya;2024;C. Valenciana;7;0,13;;;;
+chikungunya;2022;Extremadura;0;0;;;;
+chikungunya;2023;Extremadura;0;0;;;;
+chikungunya;2024;Extremadura;1;0,09;;;;
+chikungunya;2022;Galicia;0;0;;;;
+chikungunya;2023;Galicia;3;0,11;;;;
+chikungunya;2024;Galicia;1;0,04;;;;
+chikungunya;2022;Madrid;2;0,03;;;;
+chikungunya;2023;Madrid;52;0,76;;;;
+chikungunya;2024;Madrid;9;0,13;;;;
+chikungunya;2022;Murcia;0;0;;;;
+chikungunya;2023;Murcia;2;0,13;;;;
+chikungunya;2024;Murcia;0;0;;;;
+chikungunya;2022;Navarra;0;0;;;;
+chikungunya;2023;Navarra;1;0,15;;;;
+chikungunya;2024;Navarra;1;0,15;;;;
+chikungunya;2022;País Vasco;1;0,05;;;;
+chikungunya;2023;País Vasco;12;0,54;;;;
+chikungunya;2024;País Vasco;3;0,13;;;;
+chikungunya;2022;La Rioja;0;0;;;;
+chikungunya;2023;La Rioja;0;0;;;;
+chikungunya;2024;La Rioja;2;0,62;;;;
+chikungunya;2022;Ceuta;0;0;;;;
+chikungunya;2023;Ceuta;0;0;;;;
+chikungunya;2024;Ceuta;0;0;;;;
+chikungunya;2022;Melilla;0;0;;;;
+chikungunya;2023;Melilla;0;0;;;;
+chikungunya;2024;Melilla;0;0;;;;
+chikungunya;2022;España;10;0,02;4;6;;
+chikungunya;2024;España;54;0,11;33;21;Total;54
+chikungunya;2024;España;54;0,11;2;1;0-15;3
+chikungunya;2024;España;54;0,11;2;;15-25;4
+chikungunya;2024;España;54;0,11;8;6;25-35;14
+chikungunya;2024;España;54;0,11;8;6;35-45;14
+chikungunya;2024;España;54;0,11;7;3;45-55;10
+chikungunya;2024;España;54;0,11;3;0;55-65;3
+chikungunya;2024;España;54;0,11;3;2;>=65;5
+chikungunya;2023;España;191;0,4;49;142;Total;191
+chikungunya;2023;España;191;0,4;2;2;0-15;4
+chikungunya;2023;España;191;0,4;2;7;15-25;9
+chikungunya;2023;España;191;0,4;6;27;25-35;33
+chikungunya;2023;España;191;0,4;9;48;35-45;57
+chikungunya;2023;España;191;0,4;14;39;45-55;53
+chikungunya;2023;España;191;0,4;13;12;55-65;25
+chikungunya;2023;España;191;0,4;3;6;>=65;9

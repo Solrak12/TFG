@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mapa epidemiológico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link class="estilo-pagina" rel="stylesheet" href="css/estilo.css" data-normal="css/estilo.css" data-grises="css/estilo_gris.css">
+    <link class="estilo-mapa" rel="stylesheet" href="css/mapa.css" data-normal="css/mapa.css" data-grises="css/mapa_gris.css">
+    <link class="estilo-menu" rel="stylesheet" href="css/menu.css" data-normal="css/menu.css" data-grises="css/menu_gris.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="menu"></div>
+    <main>
+        <section class="py-4">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-11">
+                        <div class="portada-card">
+                            <div class="card-body p-4 p-md-5">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-7">
+                                        <p class="titulo-portada">Mapa espaciotemporal</p>
+                                        <h1>Mapa epidemiológico de España</h1>
+                                        <p class="portada-texto">Consulta la distribución de enfermedades emergentes y reemergentes por comunidades autónomas en el mapa de España. Observa cómo evolucionan los casos notificados, el género más afectado y el rango de edad predominante a lo largo de los años. Toda la información recopilada y visualizada en el atlas.</p>
+                                        <a href="#mapa-seccion" class="btn btn-accion">Ver mapa</a>
+                                    </div>
+                                    <div class="col-12 col-lg-5 text-center">
+                                        <img src="img/mapa.png" alt="Ilustración del mapa epidemiológico" class="img-fluid portada-imagen rounded shadow-sm">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="py-3">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-11">
+                        <div class="informacion-card border-0">
+                            <div class="card-body p-md-5">
+                                <div class="row position-relative align-items-start">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="bloque-columna text-center">
+                                            <p class="titulo-informacion">¿Cómo funciona?</p>
+                                            <h2 class="subtitulo-informacion">Explora los datos epidemiológicos</h2>
+                                            <p class="texto-columna">Selecciona una enfermedad, un año y el tipo de información que quieres consultar. Los datos recopilados se mostraran en el mapa para facilitar el analisis espaciotemporal de las enfermedades en España. Para seleccionar los filtros tienes que pinchar en los recuadros de enfermedad, año y mostrar la opción que quieres visualizar. Una vez seleccionados pulsas el botón buscar que pintara el mapa.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="bloque-columna text-center">
+                                            <p class="titulo-interpretacion">Interpretación</p>
+                                            <h2 class="subtitulo-interpretacion">¿Qué información muestra el mapa?</h2>
+                                            <p class="texto-columna">Por defecto las secciones que se modifican del mapa se encuentrán en blanco. Una vez pulsado buscar, se muestran colores y figuras que representán la situación de los filtros seleccionados en cada comunidad autonoma. Puedes consultar la leyenda para entender a la perfección cada caso mostrado en el mapa. Si pasas el ratón por cada comunidad autónoma, verás en mayor detalle la información visualizada.</p>
+                                        </div>
+                                    </div>
+                                    <div class="separador-informacion">
+                                        <div class="separador-linea-v"></div>
+                                        <div class="separador-adorno">♦</div>
+                                        <div class="separador-linea-v"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4">
+            <div class="container-fluid px-md-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-11">
+                        <div class="mapa-filtros">
+                            <div class="card-body p-4">
+                                <p class="titulo-filtros">Filtros</p>
+                                <div class="row align-items-end g-3">
+                                    <div class="col-12 col-md-4">
+                                        <label for="filtro-enfermedad" class="form-label">Enfermedad</label>
+                                        <select id="filtro-enfermedad" class="form-select"></select>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <label for="filtro-anyo" class="form-label">Año</label>
+                                        <select id="filtro-anyo" class="form-select"></select>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <label for="filtro-mostrar" class="form-label">Mostrar</label>
+                                        <select id="filtro-mostrar" class="form-select">
+                                            <option value="casos">Casos notificados</option>
+                                            <option value="genero">Género</option>
+                                            <option value="edad">Edad</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 col-md-2">
+                                        <button id="btn-actualizar" class="btn btn-mapa w-100">Buscar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mapa-seccion" class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-11">
+                    <div class="mapa-contenedor p-2">
+                        <div id="mapa"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4 mb-5">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-10 col-xxl-9">
+                        <div class="descargas-card">
+                            <div class="card-body p-4 p-md-5">
+                                <p class="titulo-descarga">Datos</p>
+                                <h2 class="subtitulo-descarga">Descarga de información</h2>
+                                <p>Puedes guardar en tu dispositivo los datos seleccionados con los filtros escogidos, pulsando el botón descargar csv. Si quieres obtener todos los datos almacenados en el mapa epidemiológico podrás obtenerlos presionando el botón descargar csv completo. Esta información se descargará en formato .csv con el fin de facilitar al usuario poder trabajar o estudiar los datos más detenidamente.</p>
+                                <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+                                    <button id="btn-csv" class="btn btn-mapa px-4 py-2">Descargar CSV</button>
+                                    <button id="btn-csv-completo" class="btn btn-outline-mapa px-4 py-2">Descargar CSV completo</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/componentes.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script type="module" src="js/mapa.js"></script>
+    <script src="js/accesibilidad.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

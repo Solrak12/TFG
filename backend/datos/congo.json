@@ -1,0 +1,26 @@
+{
+    "nombre": "Fiebre hemorragica Crimea-Congo",
+    "titulo": "Fiebre hemorragica Crimea-Congo",
+    "descripcion_corta": "Enfermedad vírica transmitida por garrapatas del género Hyalomma. Originaria de la península de Crimea en 1944 y del Congo en 1969",
+    "descripcion_larga": "La fiebre hemorrágica de Crimea-Congo (FHCC) es una de las enfermdades emergentes más relevantes en la península ibérica.Está causada por un virus del género Orthonairovirus (familia Nairoviridae) y destaca por su elevada tasa de letalidad(10%-40%). No solo las personas son víctimas de este virus, los animales salvajes y criados tienen mayor tendencia a tener garrapatas que les puden trasmitir la enfermedad. El virus  permanece en el torrente circulatorio durante aproximadamente una semana tras la infección. No existe una vacuna disponible, aunque sí hay medidas de vigilancia, prevención, diagnóstico y atención sanitaria para detectar y manejar los casos. Esapaña es el único país en Europa donde se ha detectado esta enfermedad en humanos y su primer caso fue en 2016.",
+    "imagen": "img/garrapata2.png",
+    "color": "#FF8FB9",
+    "sintomas": [
+        "Fiebre alta",
+        "Dolor de cabeza(cefalea)",
+        "Dolores musculares y articulares",
+        "Sudoración",
+        "Síntomas gastrointestinales y/o respiratorios",
+        "Hipotensión",
+        "Conjuntivitis",
+        "Faringitis",
+        "Erupción cutánea",
+        "Náuseas y vómitos",
+        "Hemorragias",
+        "Shock"
+    ],
+    "transmision": "Picadura de garrapata del género Hyalomma. Se puede transmitir través de contacto directo con sangre, fluidos o secreciones de una persona o animal infectado.",
+    "prevencion": "Evitar picadura de garrapatas y contacto directo con sangre, fluidos y secreciones de un animal o persona infectada. El mayor riesgo lo tienen personas encargadas de una gran cantidad de animales que tengan contacto con la naturaleza recurrentemente, como pastores, ganaderos o veterinarios. ",
+    "tratamiento": "No existe un tratamiento completamente efectivo. Lo aconsejado es controlar los síntomas, mediante antitérmicos y evitar el sangrado supervisado y tratado por un profesional médico. Cuando hay grandes Hemorragias es necesario transfusión de sangre o plaquetas. Se ha utilizado el antiviral ribavirina con efectos claramente beneficiosos. ",
+    "fuente": "Ministerio de Sanidad, Comunidad de Madrid, Organización mundial de la salud"
+}

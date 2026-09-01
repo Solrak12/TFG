@@ -1,0 +1,22 @@
+{
+    "nombre": "Tuberculosis",
+    "titulo": "Tuberculosis",
+    "descripcion_corta": "La tuberculosis es una enfermedad producida por la infección del ser humano por el bacilo de Koch. Originaria del este de África.",
+    "descripcion_larga": "La tuberculosis es una enfermedad grave de las más antiguas de la humanidad que afecta principalmente los pulmones. Es una enfermedad reemergente debido a que la bacteria ha mutado y desarrollado resistencia a los fármacos que curaban sus síntomas. Los microorganismos que causan la tuberculosis son un tipo de bacteria. Las personas con VIH/SIDA y otras personas que tienen un sistema inmunitario debilitado corren un mayor riesgo de contagiarse y presentar daños más graves. No toda persona infectada con el bacilo de Koch(Mycobacterium tuberculosis) desarrolla tuberculosis. La gran mayoría de las personas sufren síntomas leves idénticos a los de una infección respiratoria viral. Del 10% de personas que acaban padeciendo tuberculosis, el 5% se desarrolla en los primeros meses y el otro 5% se desarrolla tardíamente, inluso pasadas varías décadas. España es uno de los países occidentales con incidencia más elevada de tuberculosis. No hay una vacuna que la erradique por completa, pero la que sanaba los síntomas más graves desde haces años empieza a perder efecto con las nuevas variantes.",
+    "imagen": "img/pulmones.png",
+    "color": "#FF7F63",
+    "sintomas": [
+        "Tos que dura 3 semanas o más. Puede incluir mocos o sangre",
+        "Dolor en el pecho o dolor al respirar o toser",
+        "Pérdida de peso involuntaria",
+        "Fatiga",
+        "Fiebre",
+        "Sudoraciones nocturnas",
+        "Escalofríos",
+        "Pérdida del apetito"
+    ],
+    "transmision": "Se transmite por gotitas microscópicas en el aire que contienen dicha bacteria. Esto ocurre cuando una persona infectada tose, habla, estornuda, escupe o cualquier acción que expulse dichas bacterias por la boca e inhales ese aire. ",
+    "prevencion": "Solo la tuberculosis activa es contagiosa. Evitar multitudes y respirar el aire muy cercano a una persona contagiada que te lo pueda trasmitir",
+    "tratamiento": "Existen variantes que cada vez son más resistentes a los tratamientos tradicionales. Es necesario la combiannción de varios antibióticos para ser efectivo. Los fármacos de primera elección son: isoniacida, rifampicina, pirazinamida, etambutol y estreptomicina. Antes de poder ir al médico es aconsejable quedarte en casa para no contagiar, ventilar la habitación y usar máscarilla o un pañuelo en la boca.",
+    "fuente": "Clínica Universidad Navarra, Mayo clinic, MedlinePlus"
+}

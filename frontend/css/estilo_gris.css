@@ -1,0 +1,205 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* HEADER */
+.header-general {
+    background-color: #111111;
+    border: 2px solid #333333;
+    border-radius: 0.6rem;
+    padding: 1.3rem;
+}
+.header-general h1 {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-weight: 750;
+}
+.header-logo {
+    max-height: 10vh;
+    width: auto;
+    object-fit: contain;
+    margin-left: -0.3rem;
+}
+.header-derecha {
+    text-align: right;
+    padding-left: 1.5rem;
+    border-left: 1.5px solid #444444;
+}
+.header-texto1 {
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.header-texto2 {
+    color: #aaaaaa;
+    font-size: 1rem;
+}
+/*ACCESIBILIDAD AUMENTAR TAMAÑO*/
+html {
+    font-size: 16px;
+    transition: font-size 0.2s;
+}
+html.ui-grande {
+    font-size: 18px;
+}
+html.ui-muy-grande {
+    font-size: 20px;
+}
+.text-uppercase {
+    letter-spacing: 0.05rem;
+}
+/*INDEX*/
+.portada {
+    background-color: #eeeeee;
+    border: 2px solid #aaaaaa;
+    border-radius: 7px;
+    font-size: 1.2rem;
+}
+.portada .index-titulo1 {
+    color: #555555;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.portada .index-titulo2 {
+    color: #111111;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.portada-imagen {
+    margin: 0 auto;
+    max-height: 21.5rem;
+}
+.btn.btn-accion {
+    background-color: #cccccc;
+    color: #111111;
+    font-weight: bold;
+    border: 2px solid #999999;
+    padding: 0.6rem 1.4rem;
+}
+.btn.btn-accion:hover {
+    background-color: #aaaaaa;
+    color: #000000;
+}
+.introduccion-card .titulo1-empezar {
+    color: #555555;
+    font-size: 1.85rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.introduccion-card .titulo2-empezar {
+    color: #222222;
+    font-size: 1.95rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.seccion-importancia .titulo-importantes {
+    color: #555555;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.seccion-importancia .subtitulo-importates {
+    color: #222222;
+    font-size: 1.95rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+#enfermedades .titulo-listado {
+    color: #555555;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+#enfermedades .subtitulo-listado {
+    color: #222222;
+    font-size: 1.85rem;
+    font-weight: bold;
+}
+.introduccion-card {
+    background-color: #eeeeee;
+    border-left: 5px solid #555555;
+}
+.introduccion-card p {
+    font-size: 1.2rem;
+    color: #222222;
+}
+.seccion-importancia {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.75),
+        rgba(255, 255, 255, 0.75)
+    ), url('../img/flores_lago.avif') center/cover no-repeat;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.imagen-medicina {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 21.5rem;
+    object-fit: contain;
+    border: 2px solid #777777;
+}
+.imagen-enfermedad {
+    height: 22rem;
+    object-fit: cover;
+}
+.enfermedad {
+    max-width: 24rem;
+}
+#enfermedades {
+    padding-bottom: 3rem;
+}
+/*FOOTER*/
+.footer {
+    background-color: #111111;
+    border: 2px solid #333333;
+    border-radius: 0.5rem;
+}
+.footer-titulo1 {
+    color: #aaaaaa;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.footer-titulo2 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.footer-encargados {
+    color: #f0f0f0;
+    font-size: 1rem;
+}
+.footer-derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0.9rem;
+}
+.footer-nav {
+    color: #cfcfcf;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.footer-navegacion a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.footer-linea {
+    border-top: 1.5px solid #5a5a5a;
+    opacity: 1;
+    margin-top: 0;
+}
+.footer-credits {
+    color: #888888;
+    font-size: 1rem;
+    margin-bottom: 0;
+}

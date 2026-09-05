@@ -16,10 +16,10 @@ class Enfermedad(Base):
     comunidad = Column("Comunidad", String(100))
     casos = Column("Casos", Integer)
     tasa_notificacion = Column("Tasa notificacion", DECIMAL(10, 3))
-    hombres = Column("Hombres", String(20))
-    mujeres = Column("Mujeres", String(20))
+    hombres = Column("Hombres", Integer)
+    mujeres = Column("Mujeres", Integer)
     rango_edad = Column("Rango edad", String(100))
-    casos_edad = Column("Casos edad", String(20))
+    casos_edad = Column("Casos edad", Integer)
 
 #Tabla mensajes con todos sus campos y sus tipos.
 class Mensaje(Base):

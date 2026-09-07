@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Si tu formulario en el HTML usa id="form-contacto", cámbialo aquí acorde.
     const form = document.getElementById('formSugerencias') || document.getElementById('form-contacto');
     if (form) {
         form.addEventListener('submit', enviarSugerenciaAPI);
@@ -29,7 +28,7 @@ async function enviarSugerenciaAPI(event) {
     };
 
     try {
-        // CORREGIDO: Apuntando a tu FastAPI local
+        //Apuntando a tu FastAPI local
         const respuesta = await fetch('http://localhost:8000/contacto', {
             method: 'POST',
             headers: {

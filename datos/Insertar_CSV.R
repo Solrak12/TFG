@@ -1,6 +1,6 @@
 library(DBI)
 library(RMariaDB)
-
+# Conectamos con la base de datos ya creada
 con <- dbConnect(
   RMariaDB::MariaDB(),
   dbname="enfermedades_emergentes",

@@ -8,12 +8,14 @@ con <- dbConnect(
   user="root",
   password=""
 )
+dbExecute(con, "TRUNCATE TABLE enfermedades;")
 
+# Insertamos los datos nuevos manteniendo la estructura existente
 dbWriteTable(
   con,
   "enfermedades",
   resultado,
-  overwrite=TRUE
+  append = TRUE,
+  row.names = FALSE
 )
-
 dbDisconnect(con)

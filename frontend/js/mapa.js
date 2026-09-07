@@ -20,9 +20,7 @@ const mapa = L.map("mapa", {
     zoomDelta: 0.1
 });
 let divLeyenda;
-const leyenda = L.control({
-    position: "bottomright"
-});
+const leyenda = L.control({position: "bottomright"});
 leyenda.onAdd = function() {
     divLeyenda = L.DomUtil.create('div', 'leyenda-mapa bg-white p-2 p-md-3 rounded shadow-sm');
     actualizarLeyenda(); 

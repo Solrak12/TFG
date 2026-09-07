@@ -1,10 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
 }
-
-/* HEADER */
+/*HEADER*/
 .header-general {
     background-color: #99c4c4;
     border: 2px solid #59a8ae;

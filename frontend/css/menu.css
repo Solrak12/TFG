@@ -1,8 +1,6 @@
-html,
-body {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Times New Roman', Times, serif;
 }
 .pestanya-menu {
     position: fixed;

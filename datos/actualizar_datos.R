@@ -105,19 +105,17 @@ if(nrow(faltan) > 0){
   print(faltan) 
 } 
 
-# Cálculo tasa notificación (con acentos graves para evitar el fallo de sintaxis con el espacio)
+# Cálculo tasa notificación
 resultado$`Tasa notificacion` <- ifelse( 
   is.na(resultado$Poblacion), 
   resultado$`Tasa notificacion`, 
   round(resultado$Casos / resultado$Poblacion * 100000, 3) 
 ) 
-
 # Limpiamos pasos intermedios 
 resultado$Poblacion <- NULL 
 resultado$Comunidad_join <- NULL 
 resultado$Comunidad <- datos_original$Comunidad 
 resultado[is.na(resultado)] <- "" 
-
 # Se crea un nuevo csv con los cambios en la misma carpeta
 write.csv( 
   resultado, 

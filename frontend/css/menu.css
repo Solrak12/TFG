@@ -73,11 +73,6 @@ html, body {
     font-weight: bold;
     box-sizing: border-box;
 }
-#menuLateral .menu-botones {
-    padding: 1rem;
-    box-sizing: border-box;
-    width: 100%;
-}
 .menu-contenido .nav-link:hover {
     background-color: #ffebca;
     border-left-color: #59a8ae;

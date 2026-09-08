@@ -27,9 +27,13 @@ html, body {
     background-color: #fff;
     border-left: 1px solid #000;
     z-index: 1050;
+    overflow-y: auto; /*Permite deslizar el menú hacia abajo*/
     transform: translateX(100%); /*Mueve el menú a la izquierda para mostrarlo*/
     transition: transform 0.4s ease; /*Transicción para que sea fluido*/
     overflow-y: auto;
+}
+.menu-contenido {
+    padding-bottom: 2.5rem;
 }
 .menu-lateral.abierto {
     transform: translateX(0); /*Desplaza el menú a la derecha hasta que se oculta*/

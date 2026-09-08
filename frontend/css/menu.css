@@ -28,8 +28,14 @@ html, body {
     background-color: #fff;
     border-left: 1px solid #59a8ae;
     z-index: 1050;
+    overflow-y: auto; /*Permite deslizar el menú hacia abajo*/
     transform: translateX(100%); /*Mueve el menú a la izquierda para mostrarlo*/
     transition: transform 0.4s ease; /*Transicción para que sea fluido*/
+    box-sizing: border-box;
+}
+.menu-contenido {
+    padding-bottom: 2.5rem;
+    box-sizing: border-box;
 }
 .menu-lateral.abierto {
     transform: translateX(0); /*Desplaza el menú a la derecha hasta que se oculta*/
@@ -65,6 +71,12 @@ html, body {
     padding: 0.9rem;
     font-size: 1.1rem;
     font-weight: bold;
+    box-sizing: border-box;
+}
+#menuLateral .menu-botones {
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
 }
 .menu-contenido .nav-link:hover {
     background-color: #ffebca;
